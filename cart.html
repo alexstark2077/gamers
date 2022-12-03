@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Shopping Cart | GAMERS | All you need for a good game!</title> 
+        <link rel="stylesheet" href="css/styles.min.css" type="text/css">
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="format-detection" content="telephone=no"> 
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> 
+    </head>
+<body>
+
+	<div class="wrapper">
+
+        <main class="main">
+
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <a href="index.html" class="header__logo logo"><img src="images/icons/logo.png" alt=""></a>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+
+                                
+                                <li class="header__list-item header__dropdown">
+                                    <a href="#" class="header__link header__dropdown-link">Home <span>
+                                            <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 0.90918L5 3.81827L9 0.90918" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span></a>
+
+                                        <div class="dropdown-wrapper">
+                                            <ul class="dropdown-list">
+                                                <li class="dropdown-list-item">
+                                                    <a href="#" class="dropdown-list-link">Shop</a>
+                                                </li>
+                                                <li class="dropdown-list-item">
+                                                    <a href="#" class="dropdown-list-link">Hop</a>
+                                                </li>
+                                                <li class="dropdown-list-item">
+                                                    <a href="#" class="dropdown-list-link">Pop</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+
+                                    
+                                </li>
+
+
+                                <li class="header__list-item">
+                                    <a href="#" class="header__link">Pages</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a href="#" class="header__link">Products</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a href="#" class="header__link">Blog</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a href="#" class="header__link">Shop</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a href="#" class="header__link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__box">
+                            <div class="header__search">
+                                <form action="#" class="header__search-form">
+                                    <div class="header__search-box">
+                                        <input type="text" class="header__search-input" placeholder="Search...">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="header__controls">
+                                <a href="#" class="header__controls-btn"><img src="images/icons/gift.svg" alt=""></a>
+                                <a href="#" class="header__controls-btn"><img src="images/icons/user.svg" alt=""></a>
+                                <a href="#" class="header__controls-btn"><img src="images/icons/cart.svg" alt=""></a>
+                            </div>
+                            <div class="header__hamburger-menu">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="cart">
+                <div class="container">
+                    <div class="cart__wrapper">
+                        <div class="cart__items">
+                            <div class="cart__top">
+                                <h2 class="cart__title">My Cart (<span>5</span>)</h2>
+                                <div class="cart__deliver">
+                                    <p class="cart__deliver-text">Deliver to</p>
+                                    <div class="cart__deliver-select-box">
+                                        <select class="cart__deliver-select">
+                                            <option value="0" selected class="cart__deliver-option">482001</option>
+                                            <option value="1" class="cart__deliver-option">123456</option>
+                                            <option value="2" class="cart__deliver-option">902100</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="cart__table">
+                                <thead class="cart__table-header">
+                                    <tr class="cart__table-row">
+                                        <th class="cart__table-header-cell cart__table-header-cell--product">Product</th>
+                                        <th class="cart__table-header-cell cart__table-header-cell--price">Price</th>
+                                        <th class="cart__table-header-cell cart__table-header-cell--quantity">Quantity</th>
+                                        <th class="cart__table-header-cell cart__table-header-cell--total">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr class="cart__table-row cart__table-whole-product">
+                                        <td class="cart__table-cell cart__table-cell--product cart__table-product">
+                                            <div class="cart__table-product-pic">
+                                                <img src="images/content/laptop-2.png" alt="">
+                                                <button class="cart__table-product-remove"><img src="images/icons/remove.svg" alt=""></button>
+                                            </div>
+                                            <div class="cart__table-product-body">
+                                                <div class="cart__table-product-name">Lenovo Legion 9 Pro</div>
+                                                <div class="cart__table-product-color">Color: <span>Black</span></div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--price">₹1,79,990</td>
+                                        <td class="cart__table-cell cart__table-cell--quantity">
+                                            <div class="cart__table-input-box">
+                                                <div class="cart__table-buttons">
+                                                    <button class="cart__table-input-plus"><span>+</span></button>
+                                                    <button class="cart__table-input-minus"><span>-</span></button>
+                                                </div>
+                                                <input type="number" value="1" min="1" class="cart__table-input">
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--total">₹<span>1,79,990</span></td>
+                                    </tr>
+
+                                    <tr class="cart__table-row cart__table-whole-product">
+                                        <td class="cart__table-cell cart__table-cell--product cart__table-product">
+                                            <div class="cart__table-product-pic">
+                                                <img src="images/content/headph.png" alt="">
+                                                <button class="cart__table-product-remove"><img src="images/icons/remove.svg" alt=""></button>
+                                            </div>
+                                            <div class="cart__table-product-body">
+                                                <div class="cart__table-product-name">HeadPhones</div>
+                                                <div class="cart__table-product-color">Color: <span>Red & Black</span></div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--price">₹2999</td>
+                                        <td class="cart__table-cell cart__table-cell--quantity">
+                                            <div class="cart__table-input-box">
+                                                <div class="cart__table-buttons">
+                                                    <button class="cart__table-input-plus"><span>+</span></button>
+                                                    <button class="cart__table-input-minus"><span>-</span></button>
+                                                </div>
+                                                <input type="number" value="1" min="1" class="cart__table-input">
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--total">₹<span>2999</span></td>
+                                    </tr>
+
+                                    <tr class="cart__table-row cart__table-whole-product">
+                                        <td class="cart__table-cell cart__table-cell--product cart__table-product">
+                                            <div class="cart__table-product-pic">
+                                                <img src="images/content/mouse.png" alt="">
+                                                <button class="cart__table-product-remove"><img src="images/icons/remove.svg" alt=""></button>
+                                            </div>
+                                            <div class="cart__table-product-body">
+                                                <div class="cart__table-product-name">Gaming Mouse</div>
+                                                <div class="cart__table-product-color">Color: <span>Black</span></div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--price">₹1999</td>
+                                        <td class="cart__table-cell cart__table-cell--quantity">
+                                            <div class="cart__table-input-box">
+                                                <div class="cart__table-buttons">
+                                                    <button class="cart__table-input-plus"><span>+</span></button>
+                                                    <button class="cart__table-input-minus"><span>-</span></button>
+                                                </div>
+                                                <input type="number" value="1" min="1" class="cart__table-input">
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--total">₹<span>1999</span></td>
+                                    </tr>
+
+                                    <tr class="cart__table-row cart__table-whole-product">
+                                        <td class="cart__table-cell cart__table-cell--product cart__table-product">
+                                            <div class="cart__table-product-pic">
+                                                <img src="images/content/gamepad.png" alt="">
+                                                <button class="cart__table-product-remove"><img src="images/icons/remove.svg" alt=""></button>
+                                            </div>
+                                            <div class="cart__table-product-body">
+                                                <div class="cart__table-product-name">PS5 Controller</div>
+                                                <div class="cart__table-product-color">Color: <span>White</span></div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--price">₹2999</td>
+                                        <td class="cart__table-cell cart__table-cell--quantity">
+                                            <div class="cart__table-input-box">
+                                                <div class="cart__table-buttons">
+                                                    <button class="cart__table-input-plus"><span>+</span></button>
+                                                    <button class="cart__table-input-minus"><span>-</span></button>
+                                                </div>
+                                                <input type="number" value="1" min="1" class="cart__table-input">
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--total">₹<span>2999</span></td>
+                                    </tr>
+
+                                    <tr class="cart__table-row cart__table-whole-product">
+                                        <td class="cart__table-cell cart__table-cell--product cart__table-product">
+                                            <div class="cart__table-product-pic">
+                                                <img src="images/content/joystick.png" alt="">
+                                                <button class="cart__table-product-remove"><img src="images/icons/remove.svg" alt=""></button>
+                                            </div>
+                                            <div class="cart__table-product-body">
+                                                <div class="cart__table-product-name">JoyStick</div>
+                                                <div class="cart__table-product-color">Color: <span>Black</span></div>
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--price">₹4999</td>
+                                        <td class="cart__table-cell cart__table-cell--quantity">
+                                            <div class="cart__table-input-box">
+                                                <div class="cart__table-buttons">
+                                                    <button class="cart__table-input-plus"><span>+</span></button>
+                                                    <button class="cart__table-input-minus"><span>-</span></button>
+                                                </div>
+                                                <input type="number" value="1" min="1" class="cart__table-input">
+                                            </div>
+                                        </td>
+                                        <td class="cart__table-cell cart__table-cell--total">₹<span>4999</span></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            <div class="cart__bottom">
+                                <button class="cart__bottom-btn button">Update Cart</button>
+                                <button class="cart__bottom-btn button">Clear Cart</button>
+                            </div>
+                        </div>
+                        <div class="cart__totals">
+                            <h2 class="cart__title">Cart Totals</h2>
+                            <div class="cart__totals-inner">
+                                <div class="cart__totals-row">
+                                    <div class="cart__totals-key">Subtotals:</div>
+                                    <div class="cart__totals-value">₹1,95,985</div>
+                                </div>
+                                <div class="cart__totals-row">
+                                    <div class="cart__totals-key">Totals:</div>
+                                    <div class="cart__totals-value">₹1,95,985</div>
+                                </div>
+                                <p class="cart__totals-notification">Shipping & taxes calculated at checkout</p>
+                                <a href="checkout.html" class="cart__totals-btn button">Proceed To Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__top">
+                        <div class="footer__column">
+                            <a href="index.html" class="footer__logo logo"><img src="images/icons/logo.png" alt=""></a>
+                            <div class="footer__text">Subscribe to email alerts. We promise not to spam your
+                            inbox.</div>
+                            <form action="#" class="footer__form">
+                                <div class="footer__form-input-box">
+                                    <input type="email" required class="footer__form-input" placeholder="Email Address*">
+                                </div>
+                                <button type="submit" class="footer__form-button">Subscribe</button>
+                            </form>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__column-title">Shop</div>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__link">Laptops</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Wireless Headphones</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">MotherBoards</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Controllers</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Wireless Headsets</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Joysticks</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">PlayStation</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Gaming Mouse</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Oculus Quest</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Gift Card</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Rock In India</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Earn Rs.100</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__column-title">Help</div>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__link">Track Your Order</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Warranty & Support</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Return Policy</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Service Centers</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Bulk Orders</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">FAQs</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Why Buy Directly</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__column-title">Useful</div>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__link">About Us</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">News</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Read Our Blog</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">High5heads</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Our Partners</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Terms of Service</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__link">Partner Offers T&Cs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link"><img src="images/icons/twi.svg" alt=""></a>
+                            <a href="#" class="footer__social-link"><img src="images/icons/face.svg" alt=""></a>
+                            <a href="#" class="footer__social-link"><img src="images/icons/yt.svg" alt=""></a>
+                            <a href="#" class="footer__social-link"><img src="images/icons/ig.svg" alt=""></a>
+                            <a href="#" class="footer__social-link"><img src="images/icons/in.svg" alt=""></a>
+                        </div>
+                        <div class="footer__bottom-columns">
+                            <div class="footer__bottom-column">
+                                <div class="footer__paysystems"><img src="images/content/paysystems.png" alt=""></div>
+                            </div>
+                            <div class="footer__bottom-column">
+                                <div class="footer__download-text">DOWNLOAD THE APP</div>
+                                <a href="#" class="footer__download-btn"><img src="images/content/googoo.png" alt=""></a>
+                                <a href="#" class="footer__download-btn"><img src="images/content/apples.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="footer__copyright"><span>© 2022 Imagine Marketing Private Limited.</span> All Rights Reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+	</div>
+
+
+    
+
+<script src="js/main.min.js"></script>
+
+</body>
+ </html>
